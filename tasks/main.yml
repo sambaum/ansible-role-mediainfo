@@ -5,6 +5,7 @@
      state: present
   with_items:
      - mediainfo
+     - exiftool
 
 - name: Installing libav-tools
   package:
